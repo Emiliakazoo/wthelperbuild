@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.js" charset="utf-8"></script>
+		<script src="app.js"></script>
+		<link rel="stylesheet" href="css/app.css">
+	</head>
+	<!--______________________________________________________BEGIN APP-->
+	<body>
+		
+		<h2>Type the two letter abreviation for any state. You will receive a list of representatives</h2>
+		<form method = "get" action="api">
+			<input type="text" name = "state">
+			<input type="submit">
+		</form>
+		<hr>
+
+		<div class="app-container">
+		<div class="donors-container">
+			<h3>Donors</h3>
+			
+			<ul class="donors">
+				
+			</ul>
+		</div>
+		<div class="representatives-container">
+			<h3>Representatives</h3>
+			<ul class="representatives">
+				
+			</ul>
+		</div>
+		</div>
+	</body>
+	<!--______________________________________________________END APP-->
+</html>

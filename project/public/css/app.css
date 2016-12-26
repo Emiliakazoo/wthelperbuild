@@ -1,0 +1,22 @@
+.donors-container{
+	float:right;
+	width:400px;
+	background-color:orange;
+}
+
+h3{
+	text-align:center;
+}
+
+.representatives-container{
+	float:left;
+	width:400px;
+	background-color:orange;
+}
+
+.app-container{
+	background-color:grey;
+	width:800px;
+	margin:0 auto;
+
+}
